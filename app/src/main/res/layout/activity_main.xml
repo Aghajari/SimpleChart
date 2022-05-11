@@ -35,6 +35,21 @@
             app:cardCornerRadius="12dp"
             app:cardElevation="8dp">
 
+            <com.aghajari.simplechart.LineChart2
+                android:id="@+id/line_chart2"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="374dp"
+            android:layout_height="236dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp">
+
             <com.aghajari.simplechart.CircleChart
                 android:id="@+id/circle_chart"
                 android:layout_width="200dp"
